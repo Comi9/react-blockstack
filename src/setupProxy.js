@@ -10,6 +10,7 @@ module.exports = function(app) {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Headers': '*',
       'Access-Control-Allow-Methods': 'GET',
+      'X-Content-Type-Options': 'nosniff',
       'X-random': 'random'
     });
     next();
